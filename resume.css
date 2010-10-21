@@ -268,8 +268,8 @@ img {
 
 div#footer {
 	width: 850px;
-	margin-left:880px;
 	padding:15px 0px;
+	text-align: right;
 	font-size:x-small;
 	color:#527280;
 }
