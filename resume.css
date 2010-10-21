@@ -1,154 +1,277 @@
-html {background: url(img/bg_black.jpg);
+/*entire page*/
+
+html {
+background: url(img/bg_black.jpg);
 }
 
-body {background: url(img/bg_black.jpg); font-family:Helvetica, sans-serif; color:white; 
+body {
+	background: url(img/bg_black.jpg); 
+	font-family:Helvetica, sans-serif; 
+	color:white; 
 }
 
-div#header{background: url(img/swirls_blue2.jpg); width: 850px; margin:0 auto; padding: 30px 25px;  margin-top: 20px; border: thin solid gray;
+div#header{
+	width: 850px; 
+	margin:0 auto;  
+	margin-top: 20px;
+	padding: 30px 25px;
+	background: url(img/swirls_blue2.jpg);
+	border: thin solid gray;
 }
 
-div#wrapper {width: 850px; margin: 0 auto; font-family:sans-serif; font-size:12px; background-color: black; padding: 15px 25px; border: thin solid gray;
+div#wrapper {
+	width: 850px;
+	margin: 0 auto;
+	padding: 15px 25px;
+	font-family:sans-serif;
+	font-size:12px;
+	background-color: black;
+	border: thin solid gray;
 }
 
-div#content{width:750px; margin: 0 auto; 
+div#content{
+	width:750px; 
+	margin: 0 auto; 
 }
+
 
 /*navigation*/
-div#navigation {width:100%; margin-bottom: 35px; font-size:14px;
+
+div#navigation {
+	width:100%;
+	margin-bottom: 35px;
+	font-size:14px;
 }
 
-div#navigation ul{margin:0px 10px; 
+div#navigation ul{
+	margin:0px 10px; 
 }
 
-div#navigation ul li{display:inline; padding:15px; background-color:#2b4255; border-top: solid thin gray; width: 15px;
+div#navigation ul li{
+	display:inline;
+	width: 15px;
+	padding:15px;
+	background-color:#2b4255;
+	border-top: solid thin gray;
 }
 
-div#navigation a,a:link,a:visited{text-decoration:none; color:white;
+div#navigation a,a:link,a:visited{
+	text-decoration:none; 
+	color:white;
 }
 
-div#navigation a:hover,a:active{text-decoration:none; color:#99FF00; outline:none;
+div#navigation a:hover,a:active{
+	text-decoration:none; 
+	color:#99FF00;
+	outline:none;
 }
 
 
 /*headings*/
-h1 {color:white; font-size: 34px; font-weight:bold; font-family: Gil Sans, Geneva, sans-serif; padding-left:10px;
+
+h1 {
+	padding-left:10px;
+	font-family: Gil Sans, Geneva, sans-serif;	
+	font-size: 34px;
+	font-weight:bold;
+	color:white;
 }
 
-h2 {color:white; font-size:26px; font-family:serif; font-weight:bold; width:65%; margin:auto; padding-top: 20px;
+h2 {
+	width:65%;
+	margin:auto;
+	padding-top: 20px;
+	font-family:serif;
+	font-size:26px;
+ 	font-weight:bold;
+	color:white;
 }
 
-h3 {font-size:16px; padding:5px 10px; border-bottom: thin solid #527280; 
+h3 {
+	padding:5px 10px;
+	font-size:16px;
+	border-bottom: thin solid #527280; 
 }
 
-h4{padding-left:10px;
+h4{
+	padding-left:10px;
 }
 
-h5{margin-left:715px; font-weight:bold; font-size:22px; color:#527280; position:absolute;
+h5{
+	position:absolute;
+	margin-left:715px; 
+	font-size:22px; 
+	font-weight:bold;
+	color:#527280; 
 }
 
 /*lists*/
+
 ul {margin: 8px;
 }
 
 li {margin: 5px 0px;
 }
 
+
 /*emphasis*/
-* strong {font-weight:bold; color:#a3c0d2;
+* strong {
+	font-weight:bold; 
+	color:#a3c0d2;
 }
 
-* em {font-style:italic;}
+* em {
+	font-style:italic;
+}
 
 
 /*CSS for resume*/
 
 /*resume header*/
-ul#resume_header {list-style: none; width:100%; margin:5px 0px 15px 0px; text-align:center;
+
+ul#resume_header {
+	width:100%;
+	margin:5px 0px 15px 0px;
+	text-align:center;
+	list-style: none;
 }
 
-li#contact {width:75%; margin:auto; border-top: solid #527280; padding:10px;
+li#contact {
+	width:75%;
+	margin:auto;
+	padding:10px;
+	border-top: solid #527280; 
 }
+
 
 /*education*/
-ul.degree {margin-bottom:20px; margin-top:10px;
+
+ul.degree {
+	margin-top:10px;
+	margin-bottom:20px; 
 }
 
-ul.degree li.date {position: absolute; margin: 0; padding-left:5px;
+ul.degree li.date {
+	position: absolute;
+	margin: 0;
+	padding-left:5px;
 }
 
-ul.degree > li {margin-left: 175px;
+ul.degree > li {
+	margin-left: 175px;
 }
 
 /*work experience*/
-ul.position {margin-bottom:5px; margin-top:10px;
+
+ul.position {
+	margin-top:10px;
+	margin-bottom:5px; 
 }
 
-ul.position li.date {position: absolute; margin: 0; padding-left:5px;
+ul.position li.date {
+	position: absolute; 
+	margin: 0; 
+	padding-left:5px;
 }
 
-ul.position > li {margin-left: 175px;
+ul.position > li {
+	margin-left: 175px;
 }
 
-ul.position ul.tasks {margin-left:25px; width:90%;
+ul.position ul.tasks {
+	width:90%;
+	margin-left:25px; 
 }
 
-ul.tasks > li {list-style-type:square;
+ul.tasks > li {
+	list-style-type:square;
 }
 
 
 /*skills*/
-ul.skills {margin-bottom:5px; margin-top:10px;
+
+ul.skills {
+	margin-top:10px;
+	margin-bottom:5px; 
 }
 
-ul.skills > li {margin-left: 175px; padding-bottom:5px;
+ul.skills > li {
+	margin-left: 175px;
+	padding-bottom:5px;
 }
 
-ul.skills li.skilltype {position: absolute; margin: 0; padding-left:5px;
+ul.skills li.skilltype {
+	position: absolute;
+	margin: 0;
+	padding-left:5px;
 }
 
 
 /*CSS for portfolio*/
-ul.portfolio{margin-left: 330px; padding-top:10px;
+
+ul.portfolio{
+	margin-left: 330px;
+	padding-top:10px;
 }
 
-ul.port_images {position: absolute; padding-top:10px; 
+ul.port_images {
+	position: absolute;
+	padding-top:10px; 
 }
 
-ul.port_images li.caption{padding-bottom:8px; color:#a3c0d2; font-size:9px;
+ul.port_images li.caption{
+	padding-bottom:8px; 
+	font-size:9px;
+	color:#a3c0d2; 
 }
 
-ul.portfolio a:active,a:hover{text-decoration:none; outline:none; color:#99FF00; padding-top: 750px;
+ul.portfolio a:active,a:hover{
+	padding-top: 750px;
+	text-decoration:none; 
+	color:#99FF00;
+	outline:none;  
 }
+
+
 /*images*/
-img {width: 300px;
+img {
+	width: 300px;
 }
+
 
 /*LaTeX logo font*/
+
 .latex {
-font-family: Times, "Times New Roman", serif;
-   letter-spacing: 1px;
+	font-family: Times, "Times New Roman", serif;
+   	letter-spacing: 1px;
 }
 
 .latex sup {
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   font-size: 0.85em;
-   vertical-align: 0.15em;
-   margin-left: -0.36em;
-   margin-right: -0.15em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.85em;
+	vertical-align: 0.15em;
+	margin-left: -0.36em;
+	margin-right: -0.15em;
 }
 
 .latex sub {
-   text-transform: uppercase;
-   vertical-align: -0.5ex;
-   margin-left: -0.1667em;
-   margin-right: -0.125em;
-   font-size: 1em;
+	text-transform: uppercase;
+	vertical-align: -0.5ex;
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
+	font-size: 1em;
 }  
 
 
 /*footer*/
-div#footer {width: 850px; margin-left:880px; padding:15px 0px; font-size:x-small; color:#527280;
+
+div#footer {
+	width: 850px;
+	margin-left:880px;
+	padding:15px 0px;
+	font-size:x-small;
+	color:#527280;
 }
 
 
