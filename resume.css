@@ -1,7 +1,11 @@
 /*entire page*/
 
-body {
+html {
+	background-color: #222222;
 	background: url(img/bg_black.jpg);
+}
+
+body {
 	font-family:Helvetica, sans-serif; 
 	color:white; 
 }
