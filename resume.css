@@ -1,37 +1,33 @@
 /*entire page*/
 
-html {
-background: url(img/bg_black.jpg);
-}
-
 body {
-	background: url(img/bg_black.jpg); 
+	background: url(img/bg_black.jpg);
 	font-family:Helvetica, sans-serif; 
 	color:white; 
-}
-
-div#header{
-	width: 850px; 
-	margin:0 auto;  
-	margin-top: 20px;
-	padding: 30px 25px;
-	background: url(img/swirls_blue2.jpg);
-	border: thin solid gray;
 }
 
 div#wrapper {
 	width: 850px;
 	margin: 0 auto;
-	padding: 15px 25px;
-	font-family:sans-serif;
-	font-size:12px;
-	background-color: black;
+	padding: 25px 0px;	
+}
+
+div#header{
+	width: 850px;
+	margin:0 auto;  
+	padding: 30px 25px;
+	background: url(img/swirls_blue2.jpg);
 	border: thin solid gray;
 }
 
 div#content{
-	width:750px; 
+	width:800px; 
 	margin: 0 auto; 
+	padding:15px 50px;
+	font-family:sans-serif;
+	font-size:12px;
+	background-color: black;
+	border: thin solid gray;
 }
 
 
@@ -267,7 +263,6 @@ img {
 /*footer*/
 
 div#footer {
-	width: 850px;
 	padding:15px 0px;
 	text-align: right;
 	font-size:x-small;
