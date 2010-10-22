@@ -1,4 +1,4 @@
-/*entire page*/
+/*GENERAL*/
 
 html {
 	background-color: #222222;
@@ -35,7 +35,7 @@ div#content{
 }
 
 
-/*navigation*/
+/*NAVIGATION*/
 
 div#navigation {
 	width:100%;
@@ -67,8 +67,9 @@ div#navigation a:hover,a:active{
 }
 
 
-/*headings*/
+/*HEADINGS*/
 
+/*site name*/
 h1 {
 	padding-left:10px;
 	font-family: Gil Sans, Geneva, sans-serif;	
@@ -77,7 +78,22 @@ h1 {
 	color:white;
 }
 
-h2 {
+/*slogan*/
+h2{
+	padding-left:10px;
+}
+
+/*page name*/
+h3{
+	position:absolute;
+	margin-left:715px; 
+	font-size:22px; 
+	font-weight:bold;
+	color:#527280; 
+}
+
+/*name on resume*/
+h4 {
 	width:65%;
 	margin:auto;
 	padding-top: 20px;
@@ -87,25 +103,18 @@ h2 {
 	color:white;
 }
 
-h3 {
+/*heading*/
+
+h5 {
 	padding:5px 10px;
 	font-size:16px;
 	border-bottom: thin solid #527280; 
 }
 
-h4{
-	padding-left:10px;
-}
 
-h5{
-	position:absolute;
-	margin-left:715px; 
-	font-size:22px; 
-	font-weight:bold;
-	color:#527280; 
-}
 
-/*lists*/
+
+/*LISTS*/
 
 ul {margin: 8px;
 }
@@ -114,7 +123,7 @@ li {margin: 5px 0px;
 }
 
 
-/*emphasis*/
+/*EMPHASIS*/
 * strong {
 	font-weight:bold; 
 	color:#a3c0d2;
@@ -125,7 +134,7 @@ li {margin: 5px 0px;
 }
 
 
-/*CSS for resume*/
+/*CSS FOR RESUME*/
 
 /*resume header*/
 
@@ -160,6 +169,7 @@ ul.degree li.date {
 ul.degree > li {
 	margin-left: 175px;
 }
+
 
 /*work experience*/
 
@@ -207,7 +217,7 @@ ul.skills li.skilltype {
 }
 
 
-/*CSS for portfolio*/
+/*CSS FOR PORTFOLIO*/
 
 ul.portfolio{
 	margin-left: 330px;
@@ -233,7 +243,7 @@ ul.portfolio a:active,a:hover{
 }
 
 
-/*images*/
+/*portfolio images*/
 img {
 	width: 300px;
 }
@@ -264,7 +274,7 @@ img {
 }  
 
 
-/*footer*/
+/*FOOTER*/
 
 div#footer {
 	padding:15px 0px;
